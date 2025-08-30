@@ -77,3 +77,15 @@ ls
 make mini-rv32ima
 ls
 ./mini-rv32ima 
+.gitignore
+code .gitignore
+git rm -r --cached .vscode-server
+git rm -r --cached -f .vscode-server
+git commit -m "Remove .vscode-server from tracking"
+code .gitignore
+git rm --cached -r .cache
+git rm --cached *.VC.db
+git rm --cached .cache/vscode* .browse.VC.db
+git rm -r --cached .cache/vscode* .browse.VC.db
+git rm -r --cached --ignore-unmatch .cache/vscode* .browse.VC.db
+git rm -r --cached --ignore-unmatch -f .cache/vscode* .browse.VC.db

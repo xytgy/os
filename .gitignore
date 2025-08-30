@@ -1,0 +1,9 @@
+.vscode-server/
+# VS Code 缓存
+.vscode/
+.vscode-server/
+.cache/
+
+# C/C++/编译器数据库文件
+*.db
+*.VC.db
